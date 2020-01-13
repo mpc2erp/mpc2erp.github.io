@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Janela executar"
-permalink: /docs/janelax
 ---
 
 # Documentação da janela EXECUTAR do Windows
