@@ -2,6 +2,7 @@
 layout: page
 title: "PAGE TITLE"
 permalink: /docs/janelax
+theme: jekyll-theme-slate
 ---
 
 # Documentação da janela EXECUTAR do Windows
