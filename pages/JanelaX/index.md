@@ -7,4 +7,4 @@ Pressione simultaneamente no teclado as seguintes teclas: `WIN+R`
 
 A seguinte janela será exibida na interface do usuário:
 
-![Janela](images/img01.png)
+![](../images/img01.png)
