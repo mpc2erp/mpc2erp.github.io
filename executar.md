@@ -1,6 +1,5 @@
 ---
 layout: default
-title: "Janela executar"
 ---
 
 # Documentação da janela EXECUTAR do Windows
