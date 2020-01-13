@@ -1,3 +1,9 @@
+---
+layout: page
+title: "PAGE TITLE"
+permalink: /docs/janelax
+---
+
 # Documentação da janela EXECUTAR do Windows
 
 
