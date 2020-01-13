@@ -1,8 +1,7 @@
 ---
-layout: page
-title: "PAGE TITLE"
+layout: default
+title: "Janela executar"
 permalink: /docs/janelax
-theme: jekyll-theme-slate
 ---
 
 # Documentação da janela EXECUTAR do Windows
