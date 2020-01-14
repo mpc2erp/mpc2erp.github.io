@@ -2,8 +2,7 @@
 layout: default
 ---
 
-##### Se ainda não conhece a estrutura de telas do sistema, clique em 
-##### <a href="https://mpc2erp.github.io/Pages/Telas" target="_blank">Telas do Sistema MPC²-ERP</a>
+##### Se ainda não conhece a estrutura de telas do sistema, clique em <a href="https://mpc2erp.github.io/Pages/Telas" target="_blank">Telas do Sistema MPC²-ERP</a>
 
 
 # Cadastro de Naturezas de Operação
