@@ -10,7 +10,7 @@ As telas do Sistema MPC²-ERP tem estrutura similar, onde procuramos agrupar tod
 As telas são divididas em abas, sendo a primeira aba, a de **Pesquisa**, a segunda de **Dados Gerais**, e quando necessário, as demais abas dividindo outros tópicos.
 
 
-![](pages/images/Telas1.jpg) 
+![](pages/img/Telas1.jpg) 
 
 
 
