@@ -29,7 +29,7 @@ As telas apresenta, vários ícones (repare nos ícones assinalados abaixo). Sã
 
 ## Função dos Botões :
 
-![](Img/Telas06.jpg)  
+![](Img/Telas06.jpg)
 
 Para o bom funcionamento de um sistema, é imprescindível que as informações dos cadastros sejam de boa qualidade.
 ### Crie o hábito de realizar revisões periódicas nos seus cadastros.
