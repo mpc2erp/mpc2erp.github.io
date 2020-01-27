@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# Menus e Sub-Menus do Sistema MPC²-ERP
+
+Após a entrada do nome de usuário e a senha, é apresentada a tela principal do sistema, onde, na parte de cima, são apresentadas as opções do menu do sistema e logo abaixo, os ícones de atalhos.
+
+![](Img/Telas00.jpg)
+
 # Telas do Sistema MPC²-ERP
 
 
