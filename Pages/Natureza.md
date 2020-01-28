@@ -63,7 +63,10 @@ Nota Importante: As alterações das configurações tributárias NÃO alteram o
 
 Para o bom funcionamento de um sistema, é imprescindível que as informações dos cadastros sejam de boa qualidade.
 ### Crie o hábito de realizar revisões periódicas nos seus cadastros.
-# A MPC² Sistemas não se responsabiliza por Notas Fiscai tributadas erradas por má parametrização. Todas as alterações ficam registradas como eram anteriormente, como ficaram e quem alterou.
+
+##### A responsabilidade da correta parametrização das informações que acarretam na tributação de documentos fiscais, é do emissor dos documentos, não cabendo à MPC² Sistemas nenhuma responsabilidade por Notas Fiscai tributadas erradas por má parametrização. 
+##### Todas as alterações ficam registradas como eram anteriormente, como ficaram e quem alterou.
+
 
 
 
