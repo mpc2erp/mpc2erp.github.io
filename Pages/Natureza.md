@@ -53,13 +53,18 @@ Para cada Natureza da Operaçãos, são devinidos os seguintes códigos:
    - CST do COFINS - Define o comportamento básico para o COFINS
    - CST do PIS - Define o comportamento básico para o PIS
 
-Para o bom funcionamento de um sistema, é imprescindível que as informações dos cadastros sejam de boa qualidade.
-
 Cridas as Naturezas de Operação, devemos lembrar que muitas regras são básicas e passíveis de exceções. As exceções conhecidas até o momento, são sempre vinculadas a uma NCM (Nomenclatura Comum do Mercosul). Sendo assim, uma NCM pode ter várias situações tributárias diferentes. Este conjunto de informações chama-se Classificações Fiscais.
 
-Conheça mais sobre as Classificações Fiscais
+Conheça mais sobre as Classificações Fiscais clicando em <a href="https://mpc2erp.github.io/Pages/ClasFis" target="_blank">Classificações Fiscais</a>
 
+Os parâmetros tem que seguir OBRIGATORIAMENTE as diretrizes da CST do ICMS. Ou seja, só nas CSTs que tratem ST ela será acatada. Só nas CSTs que tenham Redução de Base, elas poderão ser configuradas, etc ...
+
+Nota Importante: As alterações das configurações tributárias NÃO alteram os documentos gerados anteriormente a mudança, e sim, apenas os novos documentos.
+
+Para o bom funcionamento de um sistema, é imprescindível que as informações dos cadastros sejam de boa qualidade.
 ### Crie o hábito de realizar revisões periódicas nos seus cadastros.
+# A MPC² Sistemas não se responsabiliza por Notas Fiscai tributadas erradas por má parametrização. Todas as alterações ficam registradas como eram anteriormente, como ficaram e quem alterou.
+
 
 
 
