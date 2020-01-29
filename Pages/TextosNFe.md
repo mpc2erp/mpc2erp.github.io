@@ -5,7 +5,7 @@ layout: default
 ##### Se ainda não conhece a estrutura de telas do sistema, clique em <a href="https://mpc2erp.github.io/Pages/Telas" target="_blank">Telas do Sistema MPC²-ERP</a>
 
 
-# Cadastro de Textos Complementares para NF-e
+# Cadastro de Textos Complementares p/NF-e
  
 ###### Esta funcionalidade é acionada na Opção Cadastros do Menu Principal, no Sub-Menu Fiscal
 
