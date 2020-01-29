@@ -5,23 +5,26 @@ layout: default
 ##### Se ainda não conhece a estrutura de telas do sistema, clique em <a href="https://mpc2erp.github.io/Pages/Telas" target="_blank">Telas do Sistema MPC²-ERP</a>
 
 
-# Cadastro de Textos Complementares para NF-e
- 
+# Cadastro ICMS por Estado
+
 ###### Esta funcionalidade é acionada na Opção Cadastros do Menu Principal, no Sub-Menu Fiscal
-
-Os textos complementares são uma grande ajuda para que se tenha registrado textos que são padrão para NF-e, para que não seja necessário sua digitação completa a cada nota. 
-
-É um cadastro simples com o objetivo de textos pré definidos já cadastrados. 
-
-![](Img/TextosNFe01.jpg)  
-
-Neste cadastro indicamos:
- - Em qual TAG este texto deverá constar, podendo ser Texto de Interesse do Fisco ou Observações, que são Textos de Interesse do Contribuinte.
- - Uma descrição interna para fácil localização nas pesquisas.
- - O Texto a ser armazenado.
  
-Nota Importante: As alterações dos Textos Complementares para NF-e NÃO alteram os documentos gerados anteriormente a mudança, e sim, apenas os novos documentos.
+Neste cadastro são digitadas as configurações padrão do ICMS de um Estado de origem (Estado do Emitente) para um Estado de destino (Estado do Destinatário). 
 
+Localize na tabela o Estado de Origem e Destino desejado e selecione
+
+![](Img/ICMS_UF01.jpg)  
+
+Ao selecionar será apresentada a tela para a configuração :
+
+![](Img/ICMS_UF02.jpg)  
+
+Neste cadastro serão indicados:
+ - Alíquota Básica do ICMS para a operação entre os Estados.
+ - Alíquota Básica do ICMS-ST para a operação entre os Estados.
+ - Se destaca Difal para Emitentes Optantes do Simples Nacional.
+ - O Tipo da Base para Cálculo do Difal, podendo ser Simples ou Dupla.
+ 
 Para o bom funcionamento de um sistema, é imprescindível que as informações dos cadastros sejam de boa qualidade.
 ### Crie o hábito de realizar revisões periódicas nos seus cadastros.
 
