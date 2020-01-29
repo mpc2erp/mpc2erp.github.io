@@ -11,12 +11,13 @@ Os textos complementares são uma grande ajuda para que se tenha registrado text
 
 É um cadastro simples com o objetivo de textos pré definidos já cadastrados. 
 
-![](Img/TextosNFe01.jpg) 
+![](Img/TextosNFe01.jpg)  
 
-Uma Natureza de Operação está sempre ligada a uma CFOP e tudo que ela representa. Porém pode-se ter mais de uma Natureza de Operação por CFOP.
-Ao clicar no ícone de Lupa, apresentada ao lado do Código da CFOP, será apresentada a tabela das CFOP´s.
-Repare no exemplo abaixo, usada para Vendas de produção própria dentro do estado, como está o cadastrado e o que representa cada informação.
-
+Neste cadastro indicamos:
+ - Em qual TAG este texto deverá constar, podendo ser Texto de Interesse do Fisco ou Observações, que são Textos de Interesse do Contribuinte.
+ - Uma descrição interna para fácil localização nas pesquisas.
+ - O Texto a ser armazenado.
+ 
 Nota Importante: As alterações dos Textos Complementares para NF-e NÃO alteram os documentos gerados anteriormente a mudança, e sim, apenas os novos documentos.
 
 Para o bom funcionamento de um sistema, é imprescindível que as informações dos cadastros sejam de boa qualidade.
