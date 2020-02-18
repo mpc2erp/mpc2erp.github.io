@@ -31,6 +31,47 @@ Outros dados ainda na aba de Dados básicos que precisam ser entendidos:
   - Vendedor: representante comercial que atende o cliente
   - e-Mail, e-Mail para NF-e e Conta Contábil: dados cadastrais
 
+##### Aba Faturamento
+
+![](Img/Cliente05.jpg) 
+
+A primeira informação que encontramos é a Origem do Endereço do endereço de Faturamento, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação. 
+Flag de Contribuinte do ICMS, caso não seja, obrigatóriamente se torna um Consumidor Final e caso seja, Flag de Consumidor Final. Neste caso, é um indicador de padrões. Este cliente compra PREDOMINANTEMENTE desta forma.
+Mais abaixo, o Regime Tributário do cliente, Suframa/CACEX e Regime Especial caso haja. Região de venda, para quem usa esta triangulação.
+Padrões para Pedidos é muito importante pois mexe em parâmetros que podem alterar o preço final e prazo de pagamento do Cliente.
+
+   - Liberado para Vendas: Indica se este cliente é liberado ou bloqueado
+   - Tabela de Preços: Tabela de preços PADRÂO para este cliente
+   - Natureza de Operação: Indica a natureza PADRÂO para as operações com o cliente
+   - Conta Bancária: Quando a Empresa trabalha com vários bancos, indica no cadastro do Cliente, qual é o banco/conta que deve gerar as cobranças (boletos).
+   
+##### * Repare no botão Padrões por Estabelecimento.
+   Este botão é utilizado quando a Empresa possui mais de um estabelecimento, para definir os padrões da venda de cada estabelecimento para este Cliente.
+
+   - Bloqueia por Atraso: Indica se o faturamento deve ou não continuar livre para este cliente, caso ele se torne inadimplente.
+   - Limite de crédito: Especifica o valor máximo da carteira de títulos em aberto para este Cliente.
+   - Desconto nos Preços: Desconto específico do Cliente nos preços praticados na Tabela de Venda indicada.
+   - Se gegue o Regime de Estimativa Simplificado, só serve para Cliente do MT.
+   - Percentual de Carga Tributária Média: Informado quando deferente do padrão.
+   
+##### Aba Cobrança
+
+![](Img/Cliente06.jpg) 
+
+Assim como na aba Faturamento, a primeira informação que encontramos é a Origem do Endereço do endereço de Cobrança, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação.
+Nesta aba, ainda pede ser definido:
+
+   - Tipo de Título padrão: Boleto, Cartão, etc ...
+   - Parâmetros para CNAB
+   Os Padrões para CNAB como taxa de multa e alíquota de juros mês e se protesta ou não e em quanto tempo, são definidos no Cadastro de Contas correntes. Aqui no cadastro de Clientes, pode-se estabelecer exceções para os padrões. Repare que por defalult, o cadastro do Cliente vem com os Flags Segue Padrão para juros e multa e Segue Padrão para protesto marcados. Isso indica que devem ser utilizados os valores definidos como padrão, no Cadastro de Contas Correntes. Porém, se for interesse da empresa dar uma tratativa especial para um determinado Cliente por ser muito bom ou muito ruim, basta desmarcar o Flag de Segue Padrão, e determinar os valores que serão usados especificamente para este Cliente.
+   
+   
+##### Aba Entrega
+
+![](Img/Cliente07.jpg) 
+   
+
+
 
 
 
