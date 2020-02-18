@@ -65,10 +65,37 @@ Nesta aba, ainda pede ser definido:
    - Parâmetros para CNAB
    Os Padrões para CNAB como taxa de multa e alíquota de juros mês e se protesta ou não e em quanto tempo, são definidos no Cadastro de Contas correntes. Aqui no cadastro de Clientes, pode-se estabelecer exceções para os padrões. Repare que por defalult, o cadastro do Cliente vem com os Flags Segue Padrão para juros e multa e Segue Padrão para protesto marcados. Isso indica que devem ser utilizados os valores definidos como padrão, no Cadastro de Contas Correntes. Porém, se for interesse da empresa dar uma tratativa especial para um determinado Cliente por ser muito bom ou muito ruim, basta desmarcar o Flag de Segue Padrão, e determinar os valores que serão usados especificamente para este Cliente.
    
-   
 ##### Aba Entrega
 
 ![](Img/Cliente07.jpg) 
+   
+Assim como na aba Faturamento, a primeira informação que encontramos é a Origem do Endereço do endereço de Cobrança, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação.
+Nesta aba, ainda pede ser definido:
+
+   - Padrão para Modalidade do Frete: Sugere quem é o Pagador padrão
+   - Região de Entrega: O Cadastro da Região de Entrega é um facilitador para distribuição de carga.
+   - Transportadora: Indica qual a Transportadora Padrão deste Cliente.
+   - Obs. para entrega: Dados internos de observações pertinentes à entrega
+
+##### Aba Observações
+
+![](Img/Cliente08.jpg) 
+
+Local destinado à observações internas sobre o cliente. Estas informações não circulam em pedidos, notas, etc ... Sendo apenas para referência interna, do tipo "Vencimentos apenas nas sextas-feiras", "Só recebem mercadorias nas quitas-feiras" e assim por diante.
+
+##### Aba Contatos
+
+![](Img/Cliente09.jpg) 
+
+Na aba contatos são gerenciados os doncatos dentro do cliente, não havendo limite para o número de contatos.
+
+##### Aba Produtos
+
+![](Img/Cliente10.jpg) 
+
+Nesta aba são apresentados todos os produtos que já foram negociados com este cliente, incluindo valores e quantidades.
+
+
    
 
 
