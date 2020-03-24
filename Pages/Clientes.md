@@ -95,11 +95,3 @@ Na aba contatos são gerenciados os doncatos dentro do cliente, não havendo lim
 
 Nesta aba são apresentados todos os produtos que já foram negociados com este cliente, incluindo valores e quantidades.
 
-
-   
-
-
-
-
-
-
