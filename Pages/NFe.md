@@ -24,3 +24,6 @@ A enorme maioria das NF-e´s emitidas por uma empresa, normalmente são (ou deve
 
 ![](Img/NotaFiscal01.jpg) 
 
+Como todas as telas do sistema, a Nota Fiscal abre pela tela de pesquisa, podendo pesquisar e consultar nostas a emitir ou também já emitidas por Empresa (matriz / Filiais), Número da Nota, Conhecimento de Transporte, Pedido, Data de Emissão, Data de Entrada / Saída, Razão Social, Fantasia ou CNPJ/CPF do Destinatário.
+
+
