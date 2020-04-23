@@ -48,27 +48,38 @@ Algumas informações fundamentais para a correta emissão de uma Nota Fiscal El
 
 Itens da Nota com Fechamento de Impostos
 
-
+Esta tela fornece uma visão sintética do itens já incluidos na Nota, oferece as ferramnetas para poder alterar ou excluir itens ou incluir novos itens em documentos que ainda não foram homologados além da ferramenta para consulta de itens. Além disso, na parte inferior da tela, é exibido a totalização tributária deste documento.
 
 ![](Img/NotaFiscal04_Itens.jpg) 
 
-Cadastro de Itens com Detalhamento do ICMS e ICMS ST
+Cadastro de Itens 
+
+Esta tela é utilizada para inclusão, alteração ou consulta dos itens da nota. 
+Ela é difidida em várias partes. 
+A Primeia parte, ITEM (Azul marinho), apresenta o nº do item e recebe o Nº do Pedido do Cliente, Nº do Item do Item do Pedido do Cliente e a Natureza da Operação para este item.
+Logo abaixo, a segunda parte, PRODUTO (em azul céu) recebe os dados do produto relacionado a este item, seus valores e quantidades.
+Em DIVERSOS (verde) estão as informações de Valor de Frete, Seguro e Despesas Acessórias.
+
+Na parte na cor Salmon, são tratados os impostos, dividido em várias abas: 
+
+ICMS/ICMS ST onde são apresentadas as informações, valores e alíquotas que envolvem a tributação do ICMS e ICMS ST deste item.
+    
 
 ![](Img/NotaFiscal04_ItensDet01.jpg) 
 
-Detalhamento do ICMS na CST 60
+Na aba ICMS na CST 60 são apresentadas as informações, valores e alíquotas que envolvem a tributação do ICMS do(s) item(ns) com a CST 60.
 
 ![](Img/NotaFiscal04_ItensDet02.jpg) 
 
-Detalhamento do IPI
+Já na aba IPI, são apresentadas as informações, valores e alíquotas que envolvem a tributação do IPI, incluindo a Classificação Fiscal.
 
 ![](Img/NotaFiscal04_ItensDet03.jpg) 
 
-Detalhamento do PIS/COFINS
+Na sequência, a aba PIS/COFINS, as informações apresentadas, são classificações, valores e alíquotas que envolvem a tributação do PIS e do COFINS.
 
 ![](Img/NotaFiscal04_ItensDet04.jpg) 
 
-Detalhamento dos dados de Importação / Exportação
+Por fim, a aba de Detalhamento dos dados de Importação / Exportação, onde serão incluidos os dados de Adição de DI e os dados de DeawBack (quando necessário).
 
 ![](Img/NotaFiscal04_ItensDet05.jpg) 
 
