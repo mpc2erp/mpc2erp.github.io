@@ -32,20 +32,23 @@ Para poder incluir nas pesquisas as Notas Fiscias já emitidas, canceladas ou in
 
 Capa da Nota
 
-    Tópicos:
-    
-    1) Tipo da nota (Entrada ou Saída)
-    2) Dados do Destinatário (Ou Emitente se Entrada)
-    3) Naturezas Principal e secundária
-    4) Status da nota, consumidor final e contribuinte de ICMS
-    5) Finalidade da NFe
-    6) RES
-    7) DI
+Algumas informações fundamentais para a correta emissão de uma Nota Fiscal Eletrônica estão na Capa da Nota e devem ser observadas/informadas. São elas :
 
+* Tipo da nota (Entrada ou Saída): Informa para o sistema o Tipo da Nota Fiscal e estabelece toda a gama possível de CFOP´s possíveis.
+* Dados do Destinatário (Ou Emitente se Entrada): São as informações cadastrais do Destinatário (Nota de Saída) ou Emitente (Nota de Entrada), além de informações de vínculo com o Pedido de Venda.
+* Naturezas Principal e secundária: São informações complementares de quais serão as CFOP´s mais utilizadas nesta Nota Fiscal. Essa informação NÃO restringe o número de CFOP´s qie podem ser utilizadas na Nota.
+* Status da nota: Indica se o Documento é Ativo ou Cancelado
+* Consumidor Final: Indica se os produtos da Nota são para Consumo ou Produção
+* Contribuinte de ICMS: Indica se o Destinatário é contribuinte do ICMS.
+* Finalidade da NFe: Indica se é uma NFé Normal, Complementar, Ajuste ou Devolução.
+* Regime de Estimativa Simplificada e Alíquota, para clientes do MT.
+* DI: Nº do Documento de Importação
 
 ![](Img/NotaFiscal03_Capa.jpg) 
 
 Itens da Nota com Fechamento de Impostos
+
+
 
 ![](Img/NotaFiscal04_Itens.jpg) 
 
