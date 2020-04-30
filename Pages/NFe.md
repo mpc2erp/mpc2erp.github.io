@@ -85,13 +85,19 @@ Por fim, a aba de Detalhamento dos dados de Importação / Exportação, onde se
 
 Transporte / Volumes
 
+Nesta aba são inseridas as informações sobre o transporte, o transportador, endereço de entrega, informações debre Volumes e dados de Exportação.
+
 ![](Img/NotaFiscal05_Transp.jpg) 
 
 Cobrança
 
+As informações de Cobrança incluem a Forma e prazos de pagamento, detalhamento das parcelas, podendo elas serem divididas pelo total da nota ou pelo valor da mercadoria com tratamento diferenciado para o valor do IPI e do ICMS ST. Também é nesta tela que é informado, quando necessário, as informações de Endereço de Cobrança.
+
 ![](Img/NotaFiscal06_Cobranca.jpg) 
 
 Dados Adicionais
+
+Esta aba é utilizada para incluir as informações complementares da Nota Fiscal, como decretos e leis que estajam sendo utilizadas na nota para tributação diferenciada, dados de devolução, informações de pedidos de venda, etc ...
 
 ![](Img/NotaFiscal07_DadosAd.jpg) 
 
@@ -100,6 +106,8 @@ NF-e / Cancelamento
 ![](Img/NotaFiscal08_NFe.jpg) 
 
 Notas Referenciadas
+
+
 
 ![](Img/NotaFiscal09_Referenciadas.jpg) 
 
