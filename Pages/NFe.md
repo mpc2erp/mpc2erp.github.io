@@ -103,15 +103,21 @@ Esta aba é utilizada para incluir as informações complementares da Nota Fisca
 
 NF-e / Cancelamento
 
+Clique aqui para saber como funciona a parte de <a href="https://mpc2erp.github.io/Pages/Natureza" target="_blank">NF-e / Cancelamento</a> 
+
+
 ![](Img/NotaFiscal08_NFe.jpg) 
 
 Notas Referenciadas
 
-
+Alguma notas fiscais como as notas de devolução, exigem o Documento Refeenciado, que no caso de uma devolução, trata-se da Nota Fiscal de remessa. Este documento deve ser incluido nesta aba. O documento pode ser uma Nota Fiscal do tipo A1, que praticamente está extinta, principalmente no estado de São Paulo, NF-e que é a opção padrão ou Cupom Fiscal. 
+Uma nota de devolução pode retornar materiais recebidos em Notas Fiscais distintas, por isso não há limite de documentos referenciados.
 
 ![](Img/NotaFiscal09_Referenciadas.jpg) 
 
 Cartas de Correção
+
+Algumas informações da Nota Fiscal podem ser corrigidas sem a necessidade de cancelamento do documento fiscal, através de uma Carta de de Correção Eletrônica, a CC-e. A pesar de trivial, não é algo que se deva fazer sem conceito ou sem consulta à contabilidade. Não há limite de Cartas de Correção para cada NF-e
 
 ![](Img/NotaFiscal10_CCe.jpg) 
 
