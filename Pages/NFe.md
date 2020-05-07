@@ -107,6 +107,7 @@ Antes de continuar, o usuário tem que ter ciência de que, ao pré-validar ou t
 Antes de numerar, caso o usuário encontre alguma discrepância do resultado pretendido, a Nota em questão pode ser apagada, clicando no ícone menos (vermelho).
 Quando uma Nota é criada automaticamente por um Pedido de Vendas, este fica bloqueado, e caso a Nota seja apagada (ou posteriormente cancelada) o referido pedido volta a ficar em aberto.
 
+
 ![](Img/NF08_Nfe.jpg)  
 
 Esta aba se divide em três partes, sendo a primeira, Dados da NF-e, Cancelamento de NF-e e Inutilização do Número.
@@ -120,6 +121,7 @@ Uma vêz autorizada, ficam ativos os seguintes ícones:
 * Erro:   Copia para a Área de Transferência (Ctrl + C) a mensagem de erro.
 * Chave:  Copia para a Área de Transferência (Ctrl + C) a Chave da NF-e.
 
+
 ![](Img/NF08_Nfe_DadosDaNFe.jpg)  
 
 Uma vez autorizada, a NF-e pode ser cancelada. Segundo as regras da SEFAZ, sem multa(s) por um período de 24 horas. Clicando na Opção Cancelar, que traz o X vermelho, será solicitado para o usuário, a justificativa do cancelamento, devendo este ter no mínimo 15 caracteres. Após a confirmação, o Status SEFAZ passa para 135.
@@ -128,6 +130,7 @@ Após o cancelamento da NF-e, o ícone Cancelar fica inativo, e são ativados os
 * XML:    Permite gravar o arquivo do Cancelamento da NF-e em seu formato XML.
 * DANFE:  Imprime um relatório de cancelamento de nota.
 * E-Mail: Disapra um E-Mail para o titular da nota contendo XML deste cancelamento.
+
 
 ![](Img/NF08_Nfe_Cancelamento.jpg)  
 
