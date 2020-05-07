@@ -107,7 +107,7 @@ Antes de continuar, o usuário tem que ter ciência de que, ao pré-validar ou t
 Antes de numerar, caso o usuário encontre alguma discrepância do resultado pretendido, a Nota em questão pode ser apagada, clicando no ícone menos (vermelho).
 Quando uma Nota é criada automaticamente por um Pedido de Vendas, este fica bloqueado, e caso a Nota seja apagada (ou posteriormente cancelada) o referido pedido volta a ficar em aberto.
 
-![](Img/NotaFiscal08_NFe.jpg) 
+![](Img/NF08_NFe.jpg) 
 
 Esta aba se divide em três partes, sendo a primeira, Dados da NF-e, Cancelamento de NF-e e Inutilização do Número.
 
@@ -120,7 +120,7 @@ Uma vêz autorizada, ficam ativos os seguintes ícones:
 * Erro:   Copia para a Área de Transferência (Ctrl + C) a mensagem de erro.
 * Chave:  Copia para a Área de Transferência (Ctrl + C) a Chave da NF-e.
 
-![](Img/NotaFiscal08_NFe_DadosDaNFe.jpg) 
+![](Img/NF08_NFe_DadosDaNFe.jpg) 
 
 Uma vez autorizada, a NF-e pode ser cancelada. Segundo as regras da SEFAZ, sem multa(s) por um período de 24 horas. Clicando na Opção Cancelar, que traz o X vermelho, será solicitado para o usuário, a justificativa do cancelamento, devendo este ter no mínimo 15 caracteres. Após a confirmação, o Status SEFAZ passa para 135.
 Após o cancelamento da NF-e, o ícone Cancelar fica inativo, e são ativados os seguintes ícones:
@@ -129,11 +129,11 @@ Após o cancelamento da NF-e, o ícone Cancelar fica inativo, e são ativados os
 * DANFE:  Imprime um relatório de cancelamento de nota.
 * E-Mail: Disapra um E-Mail para o titular da nota contendo XML deste cancelamento.
 
-![](Img/NotaFiscal08_NFe_CancelamentoDaNFe.jpg) 
+![](Img/NF08_NFe_Cancelamento.jpg) 
 
 Quando um documento foi cadastrado e por algum motivo não será autorizado, o procedimento é a Inutilização da Numeração. Este procedimento cadastra o número em questão na SEFAZ como inutilizado.
 
-![](Img/NotaFiscal08_Nfe_Inutilizacao.jpg)  
+![](Img/NF08_Nfe_Inutilizacao.jpg)  
 
 Notas Referenciadas
 
