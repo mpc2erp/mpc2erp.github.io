@@ -103,11 +103,37 @@ Esta aba é utilizada para incluir as informações complementares da Nota Fisca
 
 NF-e / Cancelamento
 
-Clique aqui para saber como funciona a parte de <a href="https://mpc2erp.github.io/Pages/Natureza" target="_blank">NF-e / Cancelamento</a> 
-a
-
+Antes de continuar, o usuário tem que ter ciência de que, ao pré-validar ou tentar autorizar uma Nota FiscalEletrônica, este documento será numerado, será apresentado a Chave da Nota e, a partir deste momento, não poderá mais ser apagado. 
+Antes de numerar, caso o usuário encontre alguma discrepância do resultado pretendido, a Nota em questão pode ser apagada, clicando no ícone menos (vermelho).
+Quando uma Nota é criada automaticamente por um Pedido de Vendas, este fica bloqueado, e caso a Nota seja apagada (ou posteriormente cancelada) o referido pedido volta a ficar em aberto.
 
 ![](Img/NotaFiscal08_NFe.jpg) 
+
+Esta aba se divide em três partes, sendo a primeira, Dados da NF-e, Cancelamento de NF-e e Inutilização do Número.
+
+Na parte Dados da NF-e é onde as operações se concretizam para que o documento cadastrado venha (ou não) a se tornar uma Nota Fiscal Eletrônica. A tela mostra a Data da Autorização, o Usuário que submete-a à autorização, o nº do protocolo da SEFAZ e o Status SEFAZ. O Status SEFAZ é a informação que define se o documento em questão fou submetido e aprovado pela SEFAZ. Se o Status SEFAZ estiver em branco, é porque o documento ainda não foi submetido à autorização, e onde está o botão Enviar E-Mail estará ativo o botão Autorizar. Caso o Status SEFAZ seja 100, como no exemplo abaixo, a NF-e foi autorizada e se tornou Documento Fiscal. Os demais códigos de Status SEFAZ, indicam que o documento apresenta erros ou inconsistências e apresenta a menmsagem de erro da SEFAZ referente ao erro em questão.
+Uma vêz autorizada, ficam ativos os seguintes ícones:
+
+* XML:    Permite gravar o arquivo da NF-e em seu formato XML.
+* DANFE:  Exibe o Documento Auxilixar de Nota Fiscal Eletrônica.
+* E-Mail: Disapra um E-Mail para o titular da nota contendo XML e DANFE desta.
+* Erro:   Copia para a Área de Transferência (Ctrl + C) a mensagem de erro.
+* Chave:  Copia para a Área de Transferência (Ctrl + C) a Chave da NF-e.
+
+![](Img/NotaFiscal08_NFe_DadosDaNFe.jpg) 
+
+Uma vez autorizada, a NF-e pode ser cancelada. Segundo as regras da SEFAZ, sem multa(s) por um período de 24 horas. Clicando na Opção Cancelar, que traz o X vermelho, será solicitado para o usuário, a justificativa do cancelamento, devendo este ter no mínimo 15 caracteres. Após a confirmação, o Status SEFAZ passa para 135.
+Após o cancelamento da NF-e, o ícone Cancelar fica inativo, e são ativados os seguintes ícones:
+
+* XML:    Permite gravar o arquivo do Cancelamento da NF-e em seu formato XML.
+* DANFE:  Imprime um relatório de cancelamento de nota.
+* E-Mail: Disapra um E-Mail para o titular da nota contendo XML deste cancelamento.
+
+![](Img/NotaFiscal08_NFe_CancelamentoDaNFe.jpg) 
+
+Quando um documento foi cadastrado e por algum motivo não será autorizado, o procedimento é a Inutilização da Numeração. Este procedimento cadastra o número em questão na SEFAZ como inutilizado.
+
+![](Img/NotaFiscal08_Nfe_Inutilizacao.jpg)  
 
 Notas Referenciadas
 
