@@ -103,7 +103,8 @@ Esta aba é utilizada para incluir as informações complementares da Nota Fisca
 
 NF-e / Cancelamento
 
-Clique aqui para saber como funciona a parte de <a href="https://mpc2erp.github.io/Pages/Natureza" target="_blank">NF-e / Cancelamento</a> a
+Clique aqui para saber como funciona a parte de <a href="https://mpc2erp.github.io/Pages/Natureza" target="_blank">NF-e / Cancelamento</a> 
+a
 
 
 ![](Img/NotaFiscal08_NFe.jpg) 
