@@ -6,9 +6,8 @@ layout: default
 
 # Recebimento de Compras
  
-O Cadastro de Fornecedores é o local onde armazenamos as informações de cada fornecedor da empresa, além de uma série de parâmetros que servirão de Padrões para as negociações futoras. Este cadastro deve ser realizado com critério e, se possível, acompanhamento do Departamento Fiscal, pois estes parâmetros influenciam os créditos tributários das compras.
-
-A tela do Cadastro de Fornecedores é dividida em 3 abas, sendo as rotineiras Pesquisa e Dados Básicos seguidos da aba Observações/Contatos.
+O Recebimento de Compras é um dos pontos mais importantes do sistema. O correto lançamento, encerra o Pedido de Compra ou Gera Pendências de entrega, Entra com os produtos da nota no Estoque, alimenta o Contas a Pagar do Financeiro com os títulos e vencimentos do documento e ainda alimenta o Fiscal.
+É importante que o operador tenha amplo conhecimento do que está fazendo e como operar corretamente o sistema. 
 
 ![](Img/Fornecedor01.jpg) 
 
