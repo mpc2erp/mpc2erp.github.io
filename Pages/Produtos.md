@@ -27,9 +27,13 @@ Para poder conhecer o Cadastro de Produtos, antes devem ser estudaos / conhecido
 
 A tela do Cadastro de Produtos é dividida em 8 abas, sendo as rotineiras Pesquisa e Dados Básicos seguidas ainda das abas Unidades, Compra / Venda, Estoque, Compostos, Composição e Imagens.
 
+##### Aba Pesquisa
+
 ![](Img/Produtos01-Pesquisa.jpg) 
 
 Um produto pode ser localizado pelo Código Interno, Referência, Descrição, Tipo ou ainda pelo Grupo de Produtos
+
+##### Aba Dados Básicos
 
 ![](Img/Produtos02-Cadastro.jpg) 
 
@@ -52,6 +56,8 @@ Definida a Classificação Fiscal, é hora de definir a Origem do Produto, segui
 Ainda nessa aba, na parte de baixo, sáo apresentadas duas informações importante. Quem cadastrou o produto, e caso ele tenha sido alterado, que foi o usuário que fez essa alteração.
 
 ##### Lembrando qeu todas as alterações ficam registradas como eram anteriormente, como ficaram e quem alterou, de acorso com parametrização realizada pela MPC² Sistemas.
+
+##### Aba Unidades
 
 ![](Img/Produtos03-Unidades.jpg) 
 
@@ -76,52 +82,48 @@ Isso não fica exposto por poder parecer complexo para os usuários, mas se clic
 
 Até o momento não conhecemos outro sistema com esta inteligência !
 
+##### Aba Compra / Venda
+
 ![](Img/Produtos04-Compra_Venda.jpg) 
 
-Outros dados ainda na aba de Dados básicos que precisam ser entendidos:
+As funcionalidsades desta aba, são importantes e demandam atenção. Na parte de cima, estão as informações de Compras do Produto, para os casos em que o produto em questão é adquirido no mercado (MP / MC / Revenda / Etc ...). As informações definidas são: 
+ - Unidade Padrão para Compras : Pode ser qualquer uma das unidades definidas na Aba Unidades, que estejam marcadas como Unidade para Compra. O Padrão é estabelecido para simplificar as compras, pois nos Pedidos de Compra, a unidade padrão para Compras de cada ítem é oferecida. Porém, é uma mera SUGESTÃO, podendo ser utilizada qualquer uma das unidades listadas.
+ - Preço Padrão de Compra (Por UN): Este valor é definido manualmente, como referência, enquanto não há compras para o produto.
+ - Ao clicar no botão Fornecedores, é apresentada uma tela com a tabela dos fornecedores que já venderam o produto em questão.
+ 
+ ![](Img/Produtos04-Compra_Venda_1.jpg) 
 
-  - Empresa: quando tem mais de um estabelecimento, este campo pode ser preenchido para indicar qual é a Empresa padrão para venda.
-  - Grupo: campo utilizado para identificação de Grupos Corporativos, indicando qual o código de Cliente que aponta para a Matriz
-  - Vendedor: representante comercial que atende o cliente
-  - e-Mail, e-Mail para NF-e e Conta Contábil: dados cadastrais
+- Clicando no botão Compras, o sistema abre uma tela com o histórico de compras desse produto.
 
-##### Aba Faturamento
+![](Img/Produtos04-Compra_Venda_2.jpg) 
 
-![](Img/Cliente05.jpg) 
+Na parte de baixo da tela, ficam as informações referentes a venda do produto em questão, para os produtos de Venda (Produção Própria) ou Revenda. Nesta parte, são digitadas as seguintes informações:
+- Unidade Padrão para Vendas: Usando a mesma filosofia de Compras, aqui se define qual é a Unidade Padrão para Vendas. E, assim como em compras, trata de uma sugestão, podendo vender nas unidades listadas, marcadas como Unidade de Venda.
+- Preço Básico de Venda (por UN): Esse é o preço ustilizado como Base para as <a href="https://mpc2erp.github.io/Pages/TabPreco" target="_blank">Tabelas de Preços</a> que utilizam porcentagem. Esse assunto deve ser cuidadosamente estudado e compreendido para um bom funcionamento.
+- Quantidade Padrão de Venda: Essa informação atende empresas que não querem cadastrar outras unidades. Por exemplo, a unidade é PC, mas só vendo de cento e não quero trabalhar com a unidade CENTO ... Coloco a Quantidade Padrão como 100.
+- Sua contabilidade deve fornecer uma tabela com quais estados exigem o FCP e qual a alíquota para aquele estado, e O Flag Contribui com o FCP (Fundo de Combate à Pobreza) é uma informação que 
+- Clicando no botão Preços, é apresentada uma tabela com Todas as Tabelas de Preços que permitem usar este produto. Para entender as informações apresentadas nesta tabela, é necessário ler e entender detalhadamente o funcionamento das <a href="https://mpc2erp.github.io/Pages/TabPreco" target="_blank">Tabelas de Preços</a>
 
-A primeira informação que encontramos é a Origem do Endereço do endereço de Faturamento, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação. 
-Flag de Contribuinte do ICMS, caso não seja, obrigatóriamente se torna um Consumidor Final e caso seja, Flag de Consumidor Final. Neste caso, é um indicador de padrões. Este cliente compra PREDOMINANTEMENTE desta forma.
-Mais abaixo, o Regime Tributário do cliente, Suframa/CACEX e Regime Especial caso haja. Região de venda, para quem usa esta triangulação.
-Padrões para Pedidos é muito importante pois mexe em parâmetros que podem alterar o preço final e prazo de pagamento do Cliente.
+![](Img/Produtos04-Compra_Venda_3.jpg)
 
-   - Liberado para Vendas: Indica se este cliente é liberado ou bloqueado
-   - Tabela de Preços: Tabela de preços PADRÂO para este cliente
-   - Natureza de Operação: Indica a natureza PADRÂO para as operações com o cliente
-   - Conta Bancária: Quando a Empresa trabalha com vários bancos, indica no cadastro do Cliente, qual é o banco/conta que deve gerar as cobranças (boletos).
-   
-##### * Repare no botão Padrões por Estabelecimento.
-   Este botão é utilizado quando a Empresa possui mais de um estabelecimento, para definir os padrões da venda de cada estabelecimento para este Cliente.
+- Quando clica no Botão Pedidos, o sistema oferece uma tabela com os Pedido de Venda que tem este produto, permitindo ao usuário ampla visão dos cenários de venda do produto. 
 
-   - Bloqueia por Atraso: Indica se o faturamento deve ou não continuar livre para este cliente, caso ele se torne inadimplente.
-   - Limite de crédito: Especifica o valor máximo da carteira de títulos em aberto para este Cliente.
-   - Desconto nos Preços: Desconto específico do Cliente nos preços praticados na Tabela de Venda indicada.
-   - Se gegue o Regime de Estimativa Simplificado, só serve para Cliente do MT.
-   - Percentual de Carga Tributária Média: Informado quando deferente do padrão.
-   
-##### Aba Cobrança
+![](Img/Produtos04-Compra_Venda_4.jpg)
 
-![](Img/Cliente06.jpg) 
+##### Aba Estoque
 
-Assim como na aba Faturamento, a primeira informação que encontramos é a Origem do Endereço do endereço de Cobrança, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação.
+![](Img/Produtos05-Estoque.jpg) 
+
+As informações desta Aba, configuram como o Estoque deste Produto deve ser tratado na empresa, 
 Nesta aba, ainda pede ser definido:
 
    - Tipo de Título padrão: Boleto, Cartão, etc ...
    - Parâmetros para CNAB
    Os Padrões para CNAB como taxa de multa e alíquota de juros mês e se protesta ou não e em quanto tempo, são definidos no Cadastro de Contas correntes. Aqui no cadastro de Clientes, pode-se estabelecer exceções para os padrões. Repare que por defalult, o cadastro do Cliente vem com os Flags Segue Padrão para juros e multa e Segue Padrão para protesto marcados. Isso indica que devem ser utilizados os valores definidos como padrão, no Cadastro de Contas Correntes. Porém, se for interesse da empresa dar uma tratativa especial para um determinado Cliente por ser muito bom ou muito ruim, basta desmarcar o Flag de Segue Padrão, e determinar os valores que serão usados especificamente para este Cliente.
    
-##### Aba Entrega
+##### Aba Entrega 
 
-![](Img/Cliente07.jpg) 
+![](Img/Produtos05-Estoque.jpg) 
    
 Assim como na aba Faturamento, a primeira informação que encontramos é a Origem do Endereço do endereço de Cobrança, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação.
 Nesta aba, ainda pede ser definido:
