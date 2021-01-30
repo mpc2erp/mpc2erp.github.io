@@ -114,7 +114,10 @@ Na parte de baixo da tela, ficam as informações referentes a venda do produto 
 
 ![](Img/Produtos05-Estoque.jpg) 
 
-As informações desta Aba, configuram como o Estoque deste Produto deve ser tratado na empresa, 
+As informações desta Aba, configuram como o Estoque deste Produto deve ser tratado na empresa, parametrizando / informando os seguintes dados :
+
+   - Flag Controla Estoque: 
+
 Nesta aba, ainda pede ser definido:
 
    - Tipo de Título padrão: Boleto, Cartão, etc ...
