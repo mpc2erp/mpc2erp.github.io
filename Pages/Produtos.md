@@ -6,7 +6,7 @@ layout: default
 
 # Cadastro de Produtos
  
-O Cadastro de Produtos, é um dos cadastros mais complexos e mais importantes para o correto funcionamento de qualquer Sistema. Deve ser elaborado por alguém que tenha conhecimento do assunto, treinamento no uso do sistema e seus recursos e, ainda com planejamento de um padrão a ser seguido para cada tipo de produto cadastrado.
+O Cadastro de Produtos, é um dos cadastros mais complexos e mais importantes para o correto funcionamento de qualquer Sistema. Deve ser elaborado por alguém que tenha conhecimento do assunto, treinado para o uso do sistema e seus recursos e, ainda com planejamento de um padrão a ser seguido para cada tipo de produto cadastrado.
 É o local onde serão cadastrados e parametrizados TODOS os produtos e serviços utilizados e/ou prestados pela empresa. Tudo que se compra, tudo que se vende, e, tudo que se produz, item a item.
 
 Para poder conhecer o Cadastro de Produtos, antes devem ser estudaos / conhecidos os seguintes Cadastros (abra a página clicando no assunto desejado) :
@@ -37,11 +37,20 @@ Um produto pode ser localizado pelo Código Interno, Referência, Descrição, T
 
 ![](Img/Produtos02-Cadastro.jpg) 
 
-Na aba Dados básicos, quando se está cadastrando um novo produto : 
-O Código do Produto, é uma informação numérica, sequencial, criada automaticamente pelo sistema cada vez que se inclui um novo produto. 
-Já a Referência é um código da empresa, alfanumérico, que é digitado pelo usuário. O sistema não permite que dois produtos usem a mesma referência.
+Na aba Dados básicos, quando se está cadastrando um novo produto, o Código do Produto, é uma informação numérica, sequencial, criada automaticamente pelo sistema a cada novo produto. 
+Já a Referência o código do produto, definido pela empresa, alfanumérico, e é digitado pelo usuário. O sistema não permite que dois produtos usem a mesma referência. Como o código de referência é livre, as empresas podem adotar os mais diversos padrões de codificação.
 
-Uma vez definida a referência, é hora de definir o <a href="https://mpc2erp.github.io/Pages/TipoProd" target="_blank">Tipo do Produtos</a>, ou seja, é neste ponto que se define se o Produto em questão é uma Matéria Prima, Um Material de Consumo, Um Produto Acabado ou Intermediário (que será produzido pela empresa), se é um patrimônio, um serviço ou um serviço de terceiros, etc ... Todos os materias e serviços comprados, vendidos, revendidos ou produzidos devem ser cadastrados.
+Uma vez definida a referência, é hora de definir o <a href="https://mpc2erp.github.io/Pages/TipoProd" target="_blank">Tipo do Produtos</a>, ou seja, é neste ponto que se define se o tipo do Produto em questão, podendo ser:
+
+    - Matéria Prima 
+    - Material de Uso / Consumo
+    - Material para Revenda
+    - Produto Acabado (que será produzido pela empresa)
+    - Intermediário (que será produzido pela empresa) 
+    - Ativo Imobilizado 
+    - Serviço 
+    - Serviço de Terceiros
+    , etc ... Todos os materias e serviços comprados, vendidos, revendidos ou produzidos devem ser cadastrados.
 
 Na sequência, será definido o <a href="https://mpc2erp.github.io/Pages/GrupoProd" target="_blank">Grupos do Produtos</a>. Este Grupo do Produto é uma sub-categoria, que permite melhor setorização / divisão dos materiais, dentro de um Tipo. Por exemplo, em uma indústria de Alimentos, pode-se criar um grupo Farinhas Secas, Fermentos, Ingredientes Líquidos, etc ... Essa divisão ou não, fica a cargo da empresa
 
@@ -53,7 +62,7 @@ A <a href="https://mpc2erp.github.io/Pages/ClasFis" target="_blank">Classificaç
 
 Definida a Classificação Fiscal, é hora de definir a Origem do Produto, seguindo a tabela apresentada, que é fornecida pela SEFAZ.
 
-Ainda nessa aba, na parte de baixo, sáo apresentadas duas informações importante. Quem cadastrou o produto, e caso ele tenha sido alterado, que foi o usuário que fez essa alteração.
+Ainda nessa aba, na parte de baixo, sáo apresentadas duas informações importante. Quem cadastrou o produto, e caso ele tenha sido alterado, que foi o usuário que realizou a última alteração.
 
 ##### Lembrando qeu todas as alterações ficam registradas como eram anteriormente, como ficaram e quem alterou, de acorso com parametrização realizada pela MPC² Sistemas.
 
@@ -80,7 +89,7 @@ Uma particularidade do MPC²-ERP na parte de Unidades, é que quando uma unidade
 
 Isso não fica exposto por poder parecer complexo para os usuários, mas se clicar em Exibir Todas as Relações, na tabela de baixo da aba, são exibidas todas as relações possíveis entre as unidades, por exemplo, ao incluir a unidade KG, informamos que 1 KG equivale a 1,38313 Lts. Automaticamente o sistema já calculou que 1 litro pesa 0,723 (arredondando) Kg.
 
-Até o momento não conhecemos outro sistema com esta inteligência !
+Até o momento não temos conhecimento de outro sistema com esta inteligência !
 
 ##### Aba Compra / Venda
 
