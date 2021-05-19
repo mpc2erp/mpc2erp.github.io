@@ -95,10 +95,10 @@ Até o momento não temos conhecimento de outro sistema com esta inteligência !
 
 ![](Img/Produtos04-Compra_Venda.jpg) 
 
-As funcionalidsades desta aba, são importantes e demandam atenção. Na parte de cima, estão as informações de Compras do Produto, para os casos em que o produto em questão é adquirido no mercado (MP / MC / Revenda / Etc ...). As informações definidas são: 
+As funcionalidsades desta aba, são importantes e demandam atenção. Na parte superior, estão as informações de Compras do Produto, para os casos em que o produto em questão é adquirido no mercado (MP / MC / Revenda / Etc ...). As informações definidas são: 
  - Unidade Padrão para Compras : Pode ser qualquer uma das unidades definidas na Aba Unidades, que estejam marcadas como Unidade para Compra. O Padrão é estabelecido para simplificar as compras, pois nos Pedidos de Compra, a unidade padrão para Compras de cada ítem é oferecida. Porém, é uma mera SUGESTÃO, podendo ser utilizada qualquer uma das unidades listadas.
  - Preço Padrão de Compra (Por UN): Este valor é definido manualmente, como referência, enquanto não há compras para o produto.
- - Ao clicar no botão Fornecedores, é apresentada uma tela com a tabela dos fornecedores que já venderam o produto em questão.
+ - Ao clicar no botão Fornecedores, é apresentada uma tela com a tabela dos estabelecimentos que já forneceram o produto em questão. 
  
  ![](Img/Produtos04-Compra_Venda_1.jpg) 
 
@@ -110,7 +110,7 @@ Na parte de baixo da tela, ficam as informações referentes a venda do produto 
 - Unidade Padrão para Vendas: Usando a mesma filosofia de Compras, aqui se define qual é a Unidade Padrão para Vendas. E, assim como em compras, trata de uma sugestão, podendo vender nas unidades listadas, marcadas como Unidade de Venda.
 - Preço Básico de Venda (por UN): Esse é o preço ustilizado como Base para as <a href="https://mpc2erp.github.io/Pages/TabPreco" target="_blank">Tabelas de Preços</a> que utilizam porcentagem. Esse assunto deve ser cuidadosamente estudado e compreendido para um bom funcionamento.
 - Quantidade Padrão de Venda: Essa informação atende empresas que não querem cadastrar outras unidades. Por exemplo, a unidade é PC, mas só vendo de cento e não quero trabalhar com a unidade CENTO ... Coloco a Quantidade Padrão como 100.
-- Sua contabilidade deve fornecer uma tabela com quais estados exigem o FCP e qual a alíquota para aquele estado, e O Flag Contribui com o FCP (Fundo de Combate à Pobreza) é uma informação que 
+- Sua contabilidade deve fornecer uma tabela com quais estados exigem o FCP e qual a alíquota para aquele estado, e O Flag Contribui com o FCP (Fundo de Combate à Pobreza).
 - Clicando no botão Preços, é apresentada uma tabela com Todas as Tabelas de Preços que permitem usar este produto. Para entender as informações apresentadas nesta tabela, é necessário ler e entender detalhadamente o funcionamento das <a href="https://mpc2erp.github.io/Pages/TabPreco" target="_blank">Tabelas de Preços</a>
 
 ![](Img/Produtos04-Compra_Venda_3.jpg)
@@ -126,12 +126,29 @@ Na parte de baixo da tela, ficam as informações referentes a venda do produto 
 As informações desta Aba, configuram como o Estoque deste Produto deve ser tratado na empresa, parametrizando / informando os seguintes dados :
 
    - Flag Controla Estoque: 
+        - Se o produto em questão tem seu estoque controlado ou não.
+   - Flag Baixa Automática: 
+        - Se o produto em quastão deve movimentar estoque automaticamente ou somente de forma manual.
+   - Flag Saídas por Volume:
+        - Se este produto irá utilizar a Saída por Volumes. O Conceito de saída por volumes está melhor esplicado no módulo Estoque, mas recomendamos orientação de um dos nossos consultores para perfeito entendimento.
+   - Almoxarifado Padrão:
+        - Apontamento do Almoxarifado Padrão (pré cadastrado) deste produto.
+   - Endereço Padrão:
+        - Indicação do Endereço (Estante / Prateleira / Caixa / Etc) em que fica o produto dentro do almoxarifado.
+   - Produto Substituto:
+        - Como o próprio título sugere, é onde se define qual produto pode ser vendido e/ou utilizado como alternativa ao produto em questão.
+   - Prazo de Reposição:
+        - É o prazo estimado para entrega do produto, quando adquirido.
+   - Estoque Mínimo:
+        - Quantidade Mínima que deve ter em estoque do produto em questão, considerando o Prazo de Entrega.
+   - Estoque de Segurança:
+        -  Muitas empresas preferem ter uma margem de segurança além do Estoque Mínimo. Quando este campo é preenchido, as Sugestões de Compra passa a considerá-lo ao invés do Estoque Mínimo.
+   - Estoque Máximo
+        - É a quantidade de referência para pedidos de compra. A Quantidade a ser adquirida é a diferença entre o Estoque Máximo e Estoque Mínimo ou Estoque de Segurança.
+   
+Nesta aba, ainda são apresentadas as informações da Posição do Estoque do produto.
 
-Nesta aba, ainda pede ser definido:
 
-   - Tipo de Título padrão: Boleto, Cartão, etc ...
-   - Parâmetros para CNAB
-   Os Padrões para CNAB como taxa de multa e alíquota de juros mês e se protesta ou não e em quanto tempo, são definidos no Cadastro de Contas correntes. Aqui no cadastro de Clientes, pode-se estabelecer exceções para os padrões. Repare que por defalult, o cadastro do Cliente vem com os Flags Segue Padrão para juros e multa e Segue Padrão para protesto marcados. Isso indica que devem ser utilizados os valores definidos como padrão, no Cadastro de Contas Correntes. Porém, se for interesse da empresa dar uma tratativa especial para um determinado Cliente por ser muito bom ou muito ruim, basta desmarcar o Flag de Segue Padrão, e determinar os valores que serão usados especificamente para este Cliente.
    
 ##### Aba Entrega 
 
