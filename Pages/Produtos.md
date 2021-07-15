@@ -150,33 +150,30 @@ Nesta aba, ainda são apresentadas as informações da Posição do Estoque do p
 
 
    
-##### Aba Entrega 
+##### Aba Compostos 
 
-![](Img/Produtos05-Estoque.jpg) 
+![](Img/Produtos06-Compostos.jpg) 
    
-Assim como na aba Faturamento, a primeira informação que encontramos é a Origem do Endereço do endereço de Cobrança, que pode ser Cadastral (Opção Padrão), que traz o endereço do cadastro definido na aba de Dados Básicos, Grupo, que traz o endereço da matriz do grupo, indicado na aba de Dados Básicos, ou Outro, que abre os campos para digitação.
-Nesta aba, ainda pede ser definido:
+Esta ABA fica ativa apenas quando o Produto em foco é uma Materia Prima ou um Produto Semi-Acabado, e as informações exibidas são os produtos que utilizam este material em sua composição. 
 
-   - Padrão para Modalidade do Frete: Sugere quem é o Pagador padrão
-   - Região de Entrega: O Cadastro da Região de Entrega é um facilitador para distribuição de carga.
-   - Transportadora: Indica qual a Transportadora Padrão deste Cliente.
-   - Obs. para entrega: Dados internos de observações pertinentes à entrega
+##### Aba Composição
 
-##### Aba Observações
+![](Img/Produtos07-Composicao.jpg) 
 
-![](Img/Cliente08.jpg) 
+As empresas classificadas como Indústrias, trazem em seu portfolio os produtos que são produzidos e comercializados pela empresa. São os Produtos Acabados. Tem também os Produtos Intermediários, que assim como os Produtos Acabados, são manufaturados pela empresa, porém não são comercializadas e sim utilizadas em outros produtos.
 
-Local destinado à observações internas sobre o cliente. Estas informações não circulam em pedidos, notas, etc ... Sendo apenas para referência interna, do tipo "Vencimentos apenas nas sextas-feiras", "Só recebem mercadorias nas quitas-feiras" e assim por diante.
+É na aba Composição que os Produtos Acabados e Produtos Intermediários recebem sua estrutura de processos de produção e materiais utilizados em cada um deles.
 
-##### Aba Contatos
+As configurações são iniciadas com a indicação da quantidade final que formulação em questão deve produzir. Depois são incluídas as fases com o tempo estimado para esta produção, e dentro de cada fase, os materiais que serão utilizados e suas quantidades para esta produção.
 
-![](Img/Cliente09.jpg) 
+Um composição mal planejada, impacta na apuração dos tempos de produção e sus custos, como também, quantidade de materiais. Por este motivo, recomendamos que a empresa contrate uma consultoria da MPC2 sistemas para dominarem o funcionamento , e também que a composição deva ser elaborada por um processista experiente.
+
+
+##### Aba Imagens
+
+![](Img/Produtos08-Imagens.jpg) 
 
 Na aba contatos são gerenciados os doncatos dentro do cliente, não havendo limite para o número de contatos.
 
-##### Aba Produtos
 
-![](Img/Cliente10.jpg) 
-
-Nesta aba são apresentados todos os produtos que já foram negociados com este cliente, incluindo valores e quantidades.
 
