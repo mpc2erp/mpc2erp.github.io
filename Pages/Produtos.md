@@ -173,7 +173,7 @@ Um composição mal planejada, impacta na apuração dos tempos de produção e 
 
 ![](Img/Produtos08-Imagens.jpg) 
 
-Como o próprio nome sugere, é o local para inserir as imagens desejadas dos produtos. Mas devemos considerar alguns pontos. Se a empresa utiliza o SQL Express, ele é gratúito porém limitado a 10 gb de Banco de Dados, e não existe nada que consuma mais espaço em um Banco de Dados que IMAGENS !! Sendo assim, pondere se realmente há necessidade de ter a imagem neste produto, e se realmente há necessidade de colocar mais de uma, pois quando atinge o limite do Banco de Dados, você fica impetrado a comprar a versão FULL, o que representa um investimento suntuoso !!
+Como o próprio nome sugere, é o local para inserir as imagens desejadas dos produtos.
 
 
 
